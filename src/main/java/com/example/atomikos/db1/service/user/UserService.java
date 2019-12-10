@@ -67,7 +67,7 @@ public class UserService{
         User user = new User();
         user.setName(name);
         save(user);
-//        int i = 1 / 0;
+        int i = 1 / 0;
         return "done";
     }
 }
